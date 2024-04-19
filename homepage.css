@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin: 0;
+   padding: 0;
+   
+}
+
+.main{
+
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%,url(backg.jpg_large));
+}
+
+.navbar{
+
+    background-color: rgb(5, 5, 35);
+    padding-bottom: 0;
+    border-bottom: 10px;
+}
+.logo{
+display: inline-block;
+width: 200px;
+height: 80px;
+align-items: center;
+border: 0;
+margin: 0;
+padding-left: 260px;
+padding-top: 5px;
+
+
+   
+}
+
+.team{
+
+    margin-top: 140px;
+    margin-left: 270px;
+    margin-right: 0;
+    background-color: rgb(23, 23, 63);
+    border-width: 0;
+    border-radius: 10px;
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    color: azure;
+}
+.team:hover{
+
+    opacity: 0.8;
+    transition: opacity 0.4s;
+    transition: color 0.4s;
+   
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: padding 0.4s;
+    background-color: rgb(40, 6, 73);
+    transition:  0.4s;
+
+    
+   
+}
+
+.team:active{
+
+    opacity:1;
+    background-color: rgb(5, 5, 60);
+}
+.point{
+    margin-top: 70px;
+    margin-left: 35px;
+    background-color: rgb(23, 23, 63);
+    border-width: 0;
+    border-radius: 10px;
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    color: azure;
+
+}
+
+.point:hover{
+    
+    opacity: 0.8;
+    transition: opacity 0.4s;
+    transition: color 0.4s;
+   
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: padding 0.4s;
+    background-color: rgb(40, 6, 73);
+    transition:  0.4s;
+
+}
+.point:active{
+
+    opacity:1;
+    background-color: rgb(5, 5, 60);
+   
+}
+
+.back{
+
+    background-color: rgb(70, 70, 241);
+    width:100%;
+}
+
