@@ -1,0 +1,118 @@
+.title-teams{
+    display: grid;
+    grid-template-rows: min-content;
+    position: absolute;
+    float: left;
+    height: 50px;
+    margin-left: 0;
+}
+
+
+.logo{
+    float: right;
+}
+.batters {
+    float: left;
+}
+
+ .vn-teamNav ul {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    justify-items: center;
+    
+        width: 100px; /* Adjust the width as needed */
+        height: 100px; /* Maintain aspect ratio */
+        display: inline-flex; /* Ensure images are block elements */
+        margin: 0 auto;
+        background-color: aliceblue;/* Center the images horizontally */
+
+    }
+    .vn-teamNav ul.teams-logo-slider li img {
+        width: 100px; /* Adjust the width as needed */
+        height: auto; /* Maintain aspect ratio */
+        display: block; /* Ensure images are block elements */
+        margin: 0 auto; /* Center the images horizontally */
+        background-color: darkblue;
+    }
+    .vn-teamNav ul li{
+        list-style: none;    }
+    
+    
+
+    .tit{
+        float: right;
+    }
+
+
+.ap-logoteam-wrp{
+    height: 5;
+}
+.batters img{
+    height: 100px;
+    display:flex;
+   flex-direction: column;
+}
+/* Style for the container of the title-teams */
+.title-teams {
+    display: flex; /* Use flexbox for layout */
+}
+
+/* Style for the box with class "2" */
+.title-teams > .hi {
+    flex: 1; /* Grow to fill available space */
+    ; /* Add padding for spacing */
+    border: 1px solid #ccc; /* Add border for visual separation */
+}
+
+/* Style for the box with class "owner" */
+.title-teams > .owner {
+    flex: 1; /* Grow to fill available space */
+    padding: 20px; /* Add padding for spacing */
+    border: 1px solid #ccc; /* Add border for visual separation */
+    margin-left: 20px; /* Add margin for spacing between the boxes */
+}
+.owner ul li {
+    list-style: none;
+    background-color: aqua;
+    position: relative;
+   
+}
+.batters ul li{
+    list-style: none;
+}
+.team-detail-text {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background: #112a5c;
+    border-radius: 10px;
+    font-family: bebas_neueregular;}
+
+    .team-detail-text p span:first-child {
+        color: #ffc52f;
+    }
+
+    .team-detail-text p span {
+        text-align: start;
+        color: #fff;
+        display: block;
+        width: 64px;}
+
+  .title-teams img {
+    float: left;
+    height: 100px;
+  }      
+
+  /* Move the .batters section to the bottom */
+.batters {
+   
+    bottom: 500px;
+    left: 0;
+    width: 100%; /* Occupy the full width */
+    padding: 20px; /* Add padding for spacing */
+    border: 1px solid #ccc; /* Add border for visual separation */
+    background-color: #f9f9f9; /* Add background color */
+    box-sizing: border-box; /* Ensure padding and border are included in width calculation */
+}
